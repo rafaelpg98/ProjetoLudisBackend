@@ -1,0 +1,6 @@
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.csprojAssemblyReference.cache
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.AssemblyInfoInputs.cache
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.AssemblyInfo.cs
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.csproj.CoreCompileInputs.cache
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Ludis\Back-End\src\ProjetoLudis\ProjetoLudis\obj\Debug\netcoreapp3.1\ProjetoLudis.MvcApplicationPartsAssemblyInfo.cache
