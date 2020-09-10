@@ -9,13 +9,13 @@ namespace ProjetoLudis.Models
     {
         public Esportista(){}
 
-        public Esportista(int idEsportista, string cpf)
+        public Esportista(int id, string cpf)
         {
-            this.IdEsportista = idEsportista;
+            this.Id = id;
             this.CPF = cpf;
         }
 
-        public int IdEsportista { get; set; }
+        public int Id { get; set; }
 
         public string CPF { get; set; }
     }

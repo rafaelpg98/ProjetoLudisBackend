@@ -1,15 +1,17 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace ProjetoLudis.Models
 {
-    public class Usuario
+    public class Usuario 
     {
         public Usuario(){}
 
-        public Usuario(int idUsuario,
+        public Usuario(int id,
                        string email,
                        string senha,
                        string nome,
@@ -23,7 +25,7 @@ namespace ProjetoLudis.Models
                        int idComerciante
                        )
         {
-            this.IdUsuario = idUsuario;
+            this.Id = id;
             this.Email = email;
             this.Senha = senha;
             this.Nome = nome;
@@ -37,8 +39,8 @@ namespace ProjetoLudis.Models
             this.IdComerciante = IdComerciante;
 
         }
-
-        public int IdUsuario { get; set; }
+        [Key]
+        public int Id { get; set; }
 
         public string Email { get; set; }
 

@@ -9,19 +9,19 @@ namespace ProjetoLudis.Models
     {
         public Comerciante(){}
 
-        public Comerciante(int idComerciante,
+        public Comerciante(int id,
                            string razaoSocial,
                            string cpfCnpj,
                            int  regime)                            
         {
-            this.IdComerciante = idComerciante;
+            this.Id = id;
             this.RazaoSocial = razaoSocial;
             this.CPFCNPJ = cpfCnpj;
             this.Regime = regime;
 
         }
 
-        public int IdComerciante { get; set; }
+        public int Id { get; set; }
 
         public string RazaoSocial { get; set; }
 
@@ -34,5 +34,10 @@ namespace ProjetoLudis.Models
         public int IndicadorIE { get; set; } = 0;
 
         public int Regime { get; set; }
+
+        internal bool Any(Func<object, bool> p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
